@@ -1,0 +1,76 @@
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #DA0037;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ffffff;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #444444 !important;
+  border-color: #444444 !important;
+  color: #fff;
+}
+
+.btn-primary:active, .btn-primary:focus {
+  box-shadow: 0 0 0 .2rem rgba(0,0,0,0.91) !important;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  right: 0;
+  padding: 13px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 0;
+  background-color: #da0037;
+  font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: .5rem 1rem;
+  color: #343a40;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,.125);
+}
+
+.timeline > li .timeline-image {
+  position: absolute;
+  z-index: 100;
+  text-align: center;
+  color: #fff;
+  border: 7px solid #eeeeee;
+  border-radius: 100%;
+  background-color: #da0037;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: all ease .5s;
+  opacity: 0;
+  background: rgba(189,0,55,0.72);
+}
+
+a:hover {
+  color: #da0037;
+}
+
+a {
+  color: #fed136;
+  text-decoration: underline;
+}
+
