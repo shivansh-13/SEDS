@@ -53,6 +53,9 @@ body {
   color: #fff;
   border: 7px solid #eeeeee;
   border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #444444;
 }
 
