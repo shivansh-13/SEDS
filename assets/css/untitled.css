@@ -53,7 +53,7 @@ body {
   color: #fff;
   border: 7px solid #eeeeee;
   border-radius: 100%;
-  background-color: #da0037;
+  background-color: #444444;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
@@ -72,5 +72,15 @@ a:hover {
 a {
   color: #fed136;
   text-decoration: underline;
+}
+
+.bg-dark {
+  background-color: black !important;
+}
+
+section#contact {
+  background-color: rgba(0,0,0,0.91);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
