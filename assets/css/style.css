@@ -1,0 +1,27 @@
+.nav-link.active,
+.nav-link:hover {
+  color: rgb(252, 111, 111) !important;
+}
+#mainNav .navbar-nav .nav-item a.nav-link {
+  position: relative !important;
+  padding: 0 0.2em !important;
+  margin: 1.1em 1em;
+  padding-bottom: 5px !important;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  right: 0;
+  width: 0;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: 0.3s;
+}
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+}
